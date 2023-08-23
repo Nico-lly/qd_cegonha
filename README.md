@@ -6,8 +6,10 @@ Formalizada pelas Portarias n° 1.459 e 650 de 2011, a Rede Cegonha visou o repa
 
 - Algumas bibliotecas úteis para o projeto:
 
-*(Bertopic){https://maartengr.github.io/BERTopic/getting_started/quickstart/quickstart.html}*, é uma biblioteca que podemos utilizar para fazer modelagem de tópicos utilizando língua portuguesa. Teve bons resultados no trabalho realizado pela UNIT.
+*[Bertopic](https://maartengr.github.io/BERTopic/getting_started/quickstart/quickstart.html)*, é uma biblioteca que podemos utilizar para fazer modelagem de tópicos utilizando língua portuguesa. Teve bons resultados no trabalho realizado pela UNIT.
 
-*(Scrapy){https://docs.scrapy.org/en/latest/topics/spiders.html}* é uma biblioteca que permite extrair informações de websites. Alguns comandos básicos:
+*[Scrapy](https://docs.scrapy.org/en/latest/topics/spiders.html)* é uma biblioteca que permite extrair informações de websites. Alguns comandos básicos:
+
+*[NLTK](https://www.nltk.org)* é uma biblioteca para trabalhar com linguagem natural. Também existe [Spacy](https://spacy.io/usage/spacy-101) que possui funcionalidades mais diretas, mas já se mostrou pouco eficiente para português.
 
 
