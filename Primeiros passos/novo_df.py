@@ -18,9 +18,21 @@ def extract_urls(json_file):
     return diarios
 
 with open('./raw_data/dataset1_rede_cegonha.json', 'r', encoding='utf-8') as json_file:
-    df = json_file.read()
+    data = json.load(json_file)
 
-dict= json.loads(df["gazettes"])
-df2 = pd.DataFrame.from_dict(dict, orient="index")
-print(df2.head())
+data = data['gazettes']
 
+# Create a DataFrame
+df = pd.DataFrame(data, columns=['territory_id', 'date', 'territory_name', 'state_code', 'excerpts'])
+
+count_id = df['territory_id'].value_counts()
+count_date = df['date'].value_counts()
+
+df['count_id'] = df['territory_id'].map(count_id)
+df['count_date'] = df['date'].map(count_date)
+
+print(df.sort_values(by='count_id', ascending=False))
+print(df.sort_values(by='date', ascending=False))
+print(df.sort_values(by='date', ascending=True))
+
+### Não tem nenhuma data repetida. Mais menções são Goiânia e Maceió.
