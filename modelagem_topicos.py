@@ -1,6 +1,13 @@
 from bertopic import BERTopic
-from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction.text import CountVectorizer
 from bertopic.representation import KeyBERTInspired
+from bertopic.vectorizers import ClassTfidfTransformer
+import pandas as pd
+import PyPDF2
+import nltk
+from nltk.corpus import stopwords
+import re
+import string
 
 #https://maartengr.github.io/BERTopic/index.html#attributes
 #@article{grootendorst2022bertopic,
@@ -9,6 +16,48 @@ from bertopic.representation import KeyBERTInspired
 #  journal={arXiv preprint arXiv:2203.05794},
 #  year={2022}
 #}
+nltk.download('punkt')
+nltk.download('stopwords')
+
+def extract_text(pdf_path):
+    text = ""
+    with open(pdf_path, "rb") as pdf_file:
+        pdf_reader = PyPDF2.PdfReader(pdf_file)
+        for page_num in range(len(pdf_reader.pages)):
+            text += pdf_reader.pages[page_num].extract_text()
+    return [text]
+
+def preprocess(docs):
+    new_doc = []
+    
+    for doc in docs:
+        tokens = nltk.word_tokenize(re.sub(f"[{re.escape(string.punctuation)}]", ' ', doc.lower()))
+        filtered_tokens = [w for w in tokens if len(w) > 1 and w not in pt_stopwords]
+        new_doc.extend(filtered_tokens)
+        ## add feature para não separar palavras com hífen
+    return new_doc
+
+pt_stopwords = set(stopwords.words('portuguese'))
+doc = preprocess(extract_text('./raw_data/portaria_rede_cegonha.pdf'))
+
+#https://www.sbert.net/docs/pretrained_models.html
+topic_model_emb = BERTopic(language='portuguese', embedding_model='multi-qa-MiniLM-L6-cos-v1', vectorizer_model=CountVectorizer(ngram_range=(1, 2)))
+topics_emb, probs_emb = topic_model_emb.fit_transform(doc)
+
+#https://maartengr.github.io/BERTopic/getting_started/ctfidf/ctfidf.html
+topic_model_tfidf = BERTopic(language='portuguese', ctfidf_model=ClassTfidfTransformer(), vectorizer_model=CountVectorizer(ngram_range=(1, 2)))
+topics_tfidf, probs_emb = topic_model_tfidf.fit_transform(doc)
+
+# Modelagem - Embedings
+topic_model_emb.visualize_topics
+#Modelage TFIDF
+topic_model_tfidf.visualize_documents
+
+#topic_model.get_document_info(docs)
+
+# Fine-tune your topic representations
+#representation_model = KeyBERTInspired()
+#topic_model = BERTopic(representation_model=representation_model)
 
 ##documents = df['corpus'].tolist()
 #preprocessed_corpus = prepare_text_for_topicmodel(documents)
@@ -34,16 +83,4 @@ from bertopic.representation import KeyBERTInspired
 #topics, probabilities = model.fit_transform(documents=documents, 
 #                                            embeddings=embeddings)
 ##D. Vianna, E. Moura. Organizing Portuguese Legal Documents through Topic Discovery. Proceedings 
-# of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2022.
-docs = fetch_20newsgroups(subset='all',  remove=('headers', 'footers', 'quotes'))['data']
-#print(docs)
-
-topic_model = BERTopic()
-topics, probs = topic_model.fit_transform(docs)
-
-topic_model.get_topic(0)
-topic_model.get_document_info(docs)
-
-# Fine-tune your topic representations
-representation_model = KeyBERTInspired()
-topic_model = BERTopic(representation_model=representation_model)
+# of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2022
