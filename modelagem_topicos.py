@@ -36,6 +36,7 @@ from bertopic.representation import KeyBERTInspired
 ##D. Vianna, E. Moura. Organizing Portuguese Legal Documents through Topic Discovery. Proceedings 
 # of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2022.
 docs = fetch_20newsgroups(subset='all',  remove=('headers', 'footers', 'quotes'))['data']
+#print(docs)
 
 topic_model = BERTopic()
 topics, probs = topic_model.fit_transform(docs)
