@@ -5,6 +5,7 @@ import pathlib
 import json
 #https://github.com/okfn-brasil/querido-diario-api
 
+###https://www.dataside.com.br/dataside-community/linguagem-de-programacao/metodos-para-gerar-o-requirements-txt-do-seu-projeto-em-python
 # Definindo diretório
 PATH = (".")
 
@@ -39,6 +40,7 @@ count_date = df['date'].value_counts()
 df['count_id'] = df['territory_id'].map(count_id)
 df['count_date'] = df['date'].map(count_date)
 ##df['count_mes_dia'] = df['territory_id'].map(count_mes_dia)
+df.to_excel('/new_data/count_cegonha.xlsx', index = False)
 
 print("Dia/mes/ano com mais publicações")
 print(df.sort_values(by='count_date', ascending=False).head(20))
