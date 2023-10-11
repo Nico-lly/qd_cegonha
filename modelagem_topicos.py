@@ -31,21 +31,28 @@ def preprocess(docs):
     new_doc = []
     for doc in docs:
         tokens = nltk.word_tokenize(re.sub(f"[{re.escape(string.punctuation)}]", ' ', doc.lower()))
-        filtered_tokens = [w for w in tokens if len(w) > 1 and w not in pt_stopwords and new_stopwords]
-        new_doc.extend(filtered_tokens)
+        tokens_hifens = nltk.word_tokenize(re.sub(f"[{re.escape(string.punctuation)}]", '-', doc.lower()))
+        hifens_filtered = [w for w in tokens_hifens if (len(w) > 1) and (w not in stopwords_set)]
+        filtered_tokens = [w for w in tokens if (len(w) > 1) and (w not in stopwords_set)]
+        #new_doc.extend(filtered_tokens)
+        new_doc.extend(hifens_filtered)
         ## add feature para não separar palavras com hífen
     return new_doc
 
-new_stopwords = ['anexo', 'parágrafo', 'após', 'meio', 'incluindo', 'quais', 'outros']
-pt_stopwords = set(stopwords.words('portuguese'))
+pt_stopwords = stopwords.words('portuguese')
+new_stopwords = ['anexo', 'parágrafo', 'após', 'meio', 'incluindo', 'quais',
+                  'outros', 'âmbito', 'diretrizes', 'rede', 'investimentos', 'investimento']
+stopwords_set = set(pt_stopwords + new_stopwords)
 doc = preprocess(extract_text('./raw_data/portaria_rede_cegonha.pdf'))
 
 #https://www.sbert.net/docs/pretrained_models.html
-topic_model_emb = BERTopic(language='portuguese', embedding_model='multi-qa-MiniLM-L6-cos-v1', vectorizer_model=CountVectorizer(ngram_range=(1, 1)))
+topic_model_emb = BERTopic(language='portuguese', embedding_model='multi-qa-MiniLM-L6-cos-v1',
+                            vectorizer_model=CountVectorizer(ngram_range=(1, 1)), top_n_words=10)
 topics_emb, probs_emb = topic_model_emb.fit_transform(doc)
 
 #https://maartengr.github.io/BERTopic/getting_started/ctfidf/ctfidf.html
-topic_model_tfidf = BERTopic(language='portuguese', ctfidf_model=ClassTfidfTransformer(), vectorizer_model=CountVectorizer(ngram_range=(1, 1)))
+topic_model_tfidf = BERTopic(language='portuguese', ctfidf_model=ClassTfidfTransformer(),
+                              vectorizer_model=CountVectorizer(ngram_range=(1, 1)), top_n_words=10)
 topics_tfidf, probs_emb = topic_model_tfidf.fit_transform(doc)
 
 #https://maartengr.github.io/BERTopic/getting_started/visualization/visualization.html#visualize-documents

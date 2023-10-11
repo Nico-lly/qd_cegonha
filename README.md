@@ -32,5 +32,11 @@ O _corpus_, frequentemente mencionado no PLN, é uma coletânea de textos, sendo
 
 Este projeto é fruto da iniciativa da [**Open Knowledge Brasil**](https://ok.org.br) com o lançamento da chamada de voluntários para trabalhar no âmbito do [Querido Diário nas Universidades](https://ok.org.br/noticia/querido-diario-nas-universidades/).
 
+### Como utilizar este repositório
+
+~~~Terminal
+pip3 install requirements.txt
+~~~
+
 ### Resultados
 - [1° artigo]()
