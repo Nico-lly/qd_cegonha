@@ -1,0 +1,2122 @@
+{
+  "cities": [
+    {
+      "territory_id": "1302603",
+      "territory_name": "Manaus",
+      "state_code": "AM",
+      "publication_urls": [
+        "https://diario.imprensaoficial.am.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1400100",
+      "territory_name": "Boa Vista",
+      "state_code": "RR",
+      "publication_urls": [
+        "https://www.boavista.rr.gov.br/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1501402",
+      "territory_name": "Belém",
+      "state_code": "PA",
+      "publication_urls": [
+        "http://sistemas.belem.pa.gov.br/diario/painel"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1506708",
+      "territory_name": "Santana do Araguaia",
+      "state_code": "PA",
+      "publication_urls": [
+        "https://diariooficial.pmsaraguaia.pa.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1600303",
+      "territory_name": "Macapá",
+      "state_code": "AP",
+      "publication_urls": [
+        "https://macapa.ap.gov.br/diarios-oficiais/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1600600",
+      "territory_name": "Santana",
+      "state_code": "AP",
+      "publication_urls": [
+        "https://santana.ap.gov.br/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1702109",
+      "territory_name": "Araguaína",
+      "state_code": "TO",
+      "publication_urls": [
+        "https://diariooficial.araguaina.to.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1709500",
+      "territory_name": "Gurupi",
+      "state_code": "TO",
+      "publication_urls": [
+        "http://diariooficial.gurupi.to.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "1721000",
+      "territory_name": "Palmas",
+      "state_code": "TO",
+      "publication_urls": [
+        "http://diariooficial.palmas.to.gov.br/",
+        "http://diariooficial.palmas.to.gov.br/todos-diarios/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2100105",
+      "territory_name": "Afonso Cunha",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.afonsocunha.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2100303",
+      "territory_name": "Aldeias Altas",
+      "state_code": "MA",
+      "publication_urls": [
+        "http://aldeiasaltas.ma.gov.br/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2101103",
+      "territory_name": "Axixá",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.axixa.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2101202",
+      "territory_name": "Bacabal",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://www.bacabal.ma.gov.br/diario/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2101301",
+      "territory_name": "Bacuri",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://bacuri.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2101350",
+      "territory_name": "Bacurituba",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://bacurituba.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2101970",
+      "territory_name": "Boa Vista do Gurupi",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.boavistadogurupi.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2103000",
+      "territory_name": "Caxias",
+      "state_code": "MA",
+      "publication_urls": [
+        "http://caxias.ma.gov.br/diario-oficial-do-municipio/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2103158",
+      "territory_name": "Centro do Guilherme",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.centrodoguilherme.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2103307",
+      "territory_name": "Codó",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://www.diariooficial.ma.gov.br/public/index.xhtml",
+        "https://dom.codo.ma.gov.br/",
+        "https://www.codo.ma.gov.br/diario/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2103604",
+      "territory_name": "Coroatá",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://coroata.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2103901",
+      "territory_name": "Duque Bacelar",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.duquebacelar.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2104073",
+      "territory_name": "Feira Nova do Maranhão",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://feiranovadomaranhao.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2106375",
+      "territory_name": "Maranhãozinho",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.maranhaozinho.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2106672",
+      "territory_name": "Milagres do Maranhão",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://milagresdomaranhao.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2107209",
+      "territory_name": "Nina Rodrigues",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.ninarodrigues.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2108454",
+      "territory_name": "Peritoró",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://www.peritoro.ma.gov.br/diario/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2110302",
+      "territory_name": "Santo Antônio Dos Lopes",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://www.stoantoniodoslopes.ma.gov.br/diario/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2111250",
+      "territory_name": "São José Dos Basílios",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://www.saojosedosbasilios.ma.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2111706",
+      "territory_name": "São Vicente Ferrer",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://saovicenteferrer.ma.gov.br/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2112803",
+      "territory_name": "Viana",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.viana.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2114007",
+      "territory_name": "Zé Doca",
+      "state_code": "MA",
+      "publication_urls": [
+        "https://transparencia.zedoca.ma.gov.br/acessoInformacao/diario/diario"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2211001",
+      "territory_name": "Teresina",
+      "state_code": "PI",
+      "publication_urls": [
+        "http://dom.pmt.pi.gov.br/lista_diario.php"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2305233",
+      "territory_name": "Horizonte",
+      "state_code": "CE",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/horizonte"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2312908",
+      "territory_name": "Sobral",
+      "state_code": "CE",
+      "publication_urls": [
+        "http://www.sobral.ce.gov.br/diario/pesquisa"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2408003",
+      "territory_name": "Mossoró",
+      "state_code": "RN",
+      "publication_urls": [
+        "http://jom.prefeiturademossoro.com.br"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2408102",
+      "territory_name": "Natal",
+      "state_code": "RN",
+      "publication_urls": [
+        "https://www.natal.rn.gov.br/dom/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2507507",
+      "territory_name": "João Pessoa",
+      "state_code": "PB",
+      "publication_urls": [
+        "http://antigo.joaopessoa.pb.gov.br/semanariooficial/",
+        "https://www.joaopessoa.pb.gov.br/doe-jp/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2603009",
+      "territory_name": "Cabrobó",
+      "state_code": "PE",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/cabrobo"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2607901",
+      "territory_name": "Jaboatão Dos Guararapes",
+      "state_code": "PE",
+      "publication_urls": [
+        "https://diariooficial.jaboatao.pe.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2611101",
+      "territory_name": "Petrolina",
+      "state_code": "PE",
+      "publication_urls": [
+        "https://petrolina.pe.gov.br/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2611606",
+      "territory_name": "Recife",
+      "state_code": "PE",
+      "publication_urls": [
+        "https://dome.recife.pe.gov.br/dome/",
+        "https://www.cepe.com.br/prefeituradiario/",
+        "http://www.recife.pe.gov.br/diariooficial-acervo/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2704302",
+      "territory_name": "Maceió",
+      "state_code": "AL",
+      "publication_urls": [
+        "http://www.maceio.al.gov.br/noticias/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2804805",
+      "territory_name": "Nossa Senhora do Socorro",
+      "state_code": "SE",
+      "publication_urls": [
+        "https://doem.org.br/se/nossasenhoradosocorro/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2900306",
+      "territory_name": "Acajutiba",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/acajutiba/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2900702",
+      "territory_name": "Alagoinhas",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/alagoinhas/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2900801",
+      "territory_name": "Alcobaça",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/alcobaca/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2902658",
+      "territory_name": "Banzaê",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/banzae/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2903201",
+      "territory_name": "Barreiras",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://barreiras.ba.gov.br/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2904506",
+      "territory_name": "Brotas de Macaúbas",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/brotasdemacaubas/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2906006",
+      "territory_name": "Campo Formoso",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/campoformoso/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2906824",
+      "territory_name": "Canudos",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/canudos/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2909703",
+      "territory_name": "Cristópolis",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/cristopolis/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2909802",
+      "territory_name": "Cruz Das Almas",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/cruzdasalmas/diarios",
+        "https://www.indap.org.br/cad.php?redir=true&estado=Bahia&categoria=Cruz+das+Almas&palavra=Prefeitura&pg=buscar"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2910602",
+      "territory_name": "Esplanada",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/esplanada/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2910800",
+      "territory_name": "Feira de Santana",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://www.diariooficial.feiradesantana.ba.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2914505",
+      "territory_name": "Irará",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/irara/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2914703",
+      "territory_name": "Itaberaba",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/itaberaba/diarios",
+        "https://itaberaba.ba.gov.br/diariooficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2915601",
+      "territory_name": "Itamaraju",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://itamaraju.ba.gov.br/category/diario/",
+        "https://doem.org.br/ba/itamaraju/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2916401",
+      "territory_name": "Itapetinga",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/itapetinga/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2916500",
+      "territory_name": "Itapicuru",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/itapicuru/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2917201",
+      "territory_name": "Ituaçu",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/ituacu/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2917607",
+      "territory_name": "Jaguaquara",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/jaguaquara/diarios",
+        "http://www.jaguaquara.ba.io.org.br/diarioOficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2918407",
+      "territory_name": "Juazeiro",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/juazeiro/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2918803",
+      "territory_name": "Laje",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/laje/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2918902",
+      "territory_name": "Lajedão",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/lajedao/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2919603",
+      "territory_name": "Macajuba",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/macajuba/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2920908",
+      "territory_name": "Mascote",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/mascote/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2921500",
+      "territory_name": "Monte Santo",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/montesanto/diarios",
+        "https://www.montesanto.ba.gov.br/site-2017/diario-oficial/diario-oficial.html"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2921708",
+      "territory_name": "Morro do Chapéu",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/morrodochapeu/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2922003",
+      "territory_name": "Mucuri",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/mucuri/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2925501",
+      "territory_name": "Prado",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/prado/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2927408",
+      "territory_name": "Salvador",
+      "state_code": "BA",
+      "publication_urls": [
+        "http://www.dom.salvador.ba.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2927705",
+      "territory_name": "Santa Cruz Cabrália",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/santacruzcabralia/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2928059",
+      "territory_name": "Santa Luzia",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/santaluzia/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2928406",
+      "territory_name": "Santa Rita de Cássia",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/santaritadecassia/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2928802",
+      "territory_name": "Santo Estêvão",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/santoestevao/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2929701",
+      "territory_name": "Sátiro Dias",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/satirodias/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2930105",
+      "territory_name": "Senhor do Bonfim",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/senhordobonfim/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2930204",
+      "territory_name": "Sento Sé",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/sentose/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2931301",
+      "territory_name": "Tapiramutá",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/tapiramuta/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2931608",
+      "territory_name": "Teolândia",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/teolandia/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "2931905",
+      "territory_name": "Tucano",
+      "state_code": "BA",
+      "publication_urls": [
+        "https://doem.org.br/ba/tucano/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3106200",
+      "territory_name": "Belo Horizonte",
+      "state_code": "MG",
+      "publication_urls": [
+        "http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DomDia"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3106705",
+      "territory_name": "Betim",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.betim.mg.gov.br/portal/diario-oficial",
+        "http://www.betim.mg.gov.br/orgaooficial/",
+        ""
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3111200",
+      "territory_name": "Campo Belo",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.campobelo.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3112000",
+      "territory_name": "Candeias",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.candeias.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3113909",
+      "territory_name": "Carmo da Cachoeira",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.carmodacachoeira.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3118601",
+      "territory_name": "Contagem",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.portal.contagem.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3120607",
+      "territory_name": "Crucilândia",
+      "state_code": "MG",
+      "publication_urls": [
+        "http://www.prefeituradecrucilandia.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3132404",
+      "territory_name": "Itajubá",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/itajuba"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3133808",
+      "territory_name": "Itaúna",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.itauna.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3135209",
+      "territory_name": "Januária",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.januaria.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3145208",
+      "territory_name": "Nova Serrana",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.novaserrana.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3151008",
+      "territory_name": "Piranguinho",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.piranguinho.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3157005",
+      "territory_name": "Salinas",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.salinas.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3168002",
+      "territory_name": "Taiobeiras",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.taiobeiras.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3170107",
+      "territory_name": "Uberaba",
+      "state_code": "MG",
+      "publication_urls": [
+        "http://www.uberaba.mg.gov.br/portal/conteudo",
+        "10453",
+        "https://imprensaoficialmunicipal.com.br/uberaba"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3170800",
+      "territory_name": "Várzea da Palma",
+      "state_code": "MG",
+      "publication_urls": [
+        "https://www.varzeadapalma.mg.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3205002",
+      "territory_name": "Serra",
+      "state_code": "ES",
+      "publication_urls": [
+        "https://ioes.dio.es.gov.br/diariodaserra"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3205200",
+      "territory_name": "Vila Velha",
+      "state_code": "ES",
+      "publication_urls": [
+        "https://diariooficial.vilavelha.es.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3300258",
+      "territory_name": "Arraial do Cabo",
+      "state_code": "RJ",
+      "publication_urls": [
+        "https://www.arraial.rj.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3300456",
+      "territory_name": "Belford Roxo",
+      "state_code": "RJ",
+      "publication_urls": [
+        "https://www.noticiasdebelfordroxo.com/p/atos-oficiais-da-prefeitura-de-broxo.html",
+        "https://transparencia.prefeituradebelfordroxo.rj.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3303500",
+      "territory_name": "Nova Iguaçu",
+      "state_code": "RJ",
+      "publication_urls": [
+        "https://diario.novaiguacu.rj.gov.br/",
+        "http://www.novaiguacu.rj.gov.br/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3304557",
+      "territory_name": "Rio de Janeiro",
+      "state_code": "RJ",
+      "publication_urls": [
+        "https://doweb.rio.rj.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3500204",
+      "territory_name": "Adolfo",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/adolfo"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3500600",
+      "territory_name": "Águas de São Pedro",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.aguasdesaopedro.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3501103",
+      "territory_name": "Alto Alegre",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.altoalegre.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3502101",
+      "territory_name": "Andradina",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.andradina.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3502507",
+      "territory_name": "Aparecida",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.aparecida.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3502754",
+      "territory_name": "Araçariguama",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.aracariguama.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3502804",
+      "territory_name": "Araçatuba",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/aracatuba"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3503158",
+      "territory_name": "Arapeí",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.arapei.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3504404",
+      "territory_name": "Avanhandava",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.avanhandava.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3504503",
+      "territory_name": "Avaré",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/avare"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3505005",
+      "territory_name": "Barão de Antonina",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.baraodeantonina.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3505104",
+      "territory_name": "Barbosa",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.barbosa.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3506508",
+      "territory_name": "Birigui",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/birigui/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3507506",
+      "territory_name": "Botucatu",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.botucatu.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3507605",
+      "territory_name": "Bragança Paulista",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/braganca_paulista"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3507753",
+      "territory_name": "Brejo Alegre",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.brejoalegre.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3509502",
+      "territory_name": "Campinas",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://www.campinas.sp.gov.br/diario-oficial/",
+        "https://portal.campinas.sp.gov.br/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3509601",
+      "territory_name": "Campo Limpo Paulista",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/campo_limpo_paulista"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3511102",
+      "territory_name": "Catanduva",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/catanduva",
+        "https://www.govbrdioenet.com.br/list/catanduva"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3511706",
+      "territory_name": "Charqueada",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.charqueada.sp.gov.br/portal/diario-oficial",
+        "https://imprensaoficialmunicipal.com.br/charqueada"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3512605",
+      "territory_name": "Coronel Macedo",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.coronelmacedo.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3513850",
+      "territory_name": "Dirce Reis",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.dircereis.sp.gov.br/portal/diario-oficial",
+        "https://imprensaoficialmunicipal.com.br/dirce_reis"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3514403",
+      "territory_name": "Dracena",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.dracena.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3514809",
+      "territory_name": "Eldorado",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.eldorado.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3515905",
+      "territory_name": "Floreal",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.floreal.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3516903",
+      "territory_name": "General Salgado",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.generalsalgado.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3517109",
+      "territory_name": "Glicério",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.glicerio.sp.gov.br/portal/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3517802",
+      "territory_name": "Guaraçaí",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/guaracai"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3518800",
+      "territory_name": "Guarulhos",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.guarulhos.sp.gov.br/diario-oficial",
+        "https://diariooficial.guarulhos.sp.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3519600",
+      "territory_name": "Ibitinga",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.ibitinga.instarbr.com.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3519907",
+      "territory_name": "Iepê",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.iepe.sp.gov.br/portal/diario-oficial",
+        "https://imprensaoficialmunicipal.com.br/iepe"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3521606",
+      "territory_name": "Irapuru",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.irapuru.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3522406",
+      "territory_name": "Itapeva",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/itapeva"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3522505",
+      "territory_name": "Itapevi",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/itapevi",
+        "https://itapevi.sp.gov.br/diario-oficial/",
+        "http://www.itapevi.sp.gov.br/noticiasNovo/sec_gabinete/diario_oficial.php"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3522653",
+      "territory_name": "Itapirapuã Paulista",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.itapirapuapaulista.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3522703",
+      "territory_name": "Itápolis",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.itapolis.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3522901",
+      "territory_name": "Itapuí",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.itapui.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3523305",
+      "territory_name": "Itariri",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.itariri.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3523800",
+      "territory_name": "Itobi",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.itobi.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3523909",
+      "territory_name": "Itu",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/itu",
+        "https://itu.sp.gov.br/imprensa-oficial/",
+        "https://itu.sp.gov.br/governo/imprensa-oficial-edicoes-anteriores/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3524303",
+      "territory_name": "Jaboticabal",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://www.jaboticabal.sp.gov.br/jornal-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3525003",
+      "territory_name": "Jandira",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/jandira",
+        "https://portal.jandira.sp.gov.br/jopej/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3525300",
+      "territory_name": "Jaú",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://www.jau.sp.gov.br/jornal-oficial",
+        "https://www.imprensaoficialmunicipal.com.br/jau"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3525508",
+      "territory_name": "Joanópolis",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.joanopolis.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3525607",
+      "territory_name": "João Ramalho",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.joaoramalho.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3525904",
+      "territory_name": "Jundiaí",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficial.jundiai.sp.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3526001",
+      "territory_name": "Junqueirópolis",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.junqueiropolis.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3526308",
+      "territory_name": "Lagoinha",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.lagoinha.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3526506",
+      "territory_name": "Lavínia",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.lavinia.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3527702",
+      "territory_name": "Luiziânia",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.luiziania.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3528106",
+      "territory_name": "Macaubal",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://macaubal.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3529005",
+      "territory_name": "Marília",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.marilia.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3530003",
+      "territory_name": "Mira Estrela",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.miraestrela.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3530201",
+      "territory_name": "Mirante do Paranapanema",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.mirantedoparanapanema.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3530706",
+      "territory_name": "Mogi Guaçu",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://mogiguacu.sp.gov.br/publicacao-editais/",
+        "https://www.imprensaoficialmunicipal.com.br/mogi_guacu"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3531308",
+      "territory_name": "Monte Alto",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://montealto.instaridc.com.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3531803",
+      "territory_name": "Monte Mor",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.montemor.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3532603",
+      "territory_name": "Nhandeara",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.nhandeara.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3532868",
+      "territory_name": "Nova Castilho",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.novacastilho.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3533304",
+      "territory_name": "Nova Luzitânia",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.novaluzitania.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3534401",
+      "territory_name": "Osasco",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://www.osasco.sp.gov.br/imprensa-oficial?page=1"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3534708",
+      "territory_name": "Ourinhos",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.ourinhos.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3535309",
+      "territory_name": "Palmital",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.palmital.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3536257",
+      "territory_name": "Parisi",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.parisi.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3536307",
+      "territory_name": "Patrocínio Paulista",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.patrociniopaulista.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3536505",
+      "territory_name": "Paulínia",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://www.paulinia.sp.gov.br/semanarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3537305",
+      "territory_name": "Penápolis",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.penapolis.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3537800",
+      "territory_name": "Piedade",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.piedade.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3538105",
+      "territory_name": "Pindorama",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.pindorama.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3539608",
+      "territory_name": "Planalto",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.planalto.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3539905",
+      "territory_name": "Poloni",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.poloni.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3540309",
+      "territory_name": "Pontes Gestal",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.pontesgestal.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3540507",
+      "territory_name": "Porangaba",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.porangaba.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3541059",
+      "territory_name": "Pratânia",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.pratania.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3541307",
+      "territory_name": "Presidente Epitácio",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.presidenteepitacio.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3543907",
+      "territory_name": "Rio Claro",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/rio_claro"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3545209",
+      "territory_name": "Salto",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/salto"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3546504",
+      "territory_name": "Santa Ernestina",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.santaernestina.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3547007",
+      "territory_name": "Santa Maria da Serra",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.santamariadaserra.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3547809",
+      "territory_name": "Santo André",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://digital.maven.com.br/pub/AtosOficiais/",
+        "https://web.santoandre.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3548500",
+      "territory_name": "Santos",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://diariooficial.santos.sp.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3548708",
+      "territory_name": "São Bernardo do Campo",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/sao_bernardo_do_campo",
+        "https://www.saobernardo.sp.gov.br/web/sbc/imprensa-oficial",
+        "https://www.saobernardo.sp.gov.br/web/sbc/todas-as-edicoes"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3550100",
+      "territory_name": "São Manuel",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.saomanuel.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3550407",
+      "territory_name": "São Pedro",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.saopedro.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3550605",
+      "territory_name": "São Roque",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.saoroque.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3551207",
+      "territory_name": "Sarutaiá",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.sarutaia.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3551306",
+      "territory_name": "Sebastianópolis do Sul",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.sebastianopolisdosul.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3551702",
+      "territory_name": "Sertãozinho",
+      "state_code": "SP",
+      "publication_urls": [
+        "http://diarioeletronicooficial.com.br/diario/sertaozinho-sp",
+        "https://www.imprensaoficialmunicipal.com.br/sertaozinho"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3552403",
+      "territory_name": "Sumaré",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.sumare.sp.gov.br/index2.php?p=Diario.Oficial&edicao=todas"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3553500",
+      "territory_name": "Tapiraí",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.tapirai.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3553658",
+      "territory_name": "Taquaral",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.taquaral.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3554409",
+      "territory_name": "Terra Roxa",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.terraroxa.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3555208",
+      "territory_name": "Turiúba",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.turiuba.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3555703",
+      "territory_name": "União Paulista",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.uniaopaulista.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3556206",
+      "territory_name": "Valinhos",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.valinhos.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3556305",
+      "territory_name": "Valparaíso",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.valparaiso.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3556602",
+      "territory_name": "Vera Cruz",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.veracruz.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3556701",
+      "territory_name": "Vinhedo",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.vinhedo.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3557006",
+      "territory_name": "Votorantim",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.votorantim.sp.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "3557105",
+      "territory_name": "Votuporanga",
+      "state_code": "SP",
+      "publication_urls": [
+        "https://www.imprensaoficialmunicipal.com.br/votuporanga"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4101309",
+      "territory_name": "Antônio Olinto",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://antonioolinto.pr.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4103453",
+      "territory_name": "Cafelândia",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://imprensaoficialmunicipal.com.br/cafelandia"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4106902",
+      "territory_name": "Curitiba",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://legisladocexterno.curitiba.pr.gov.br/DiarioConsultaExterna_Pesquisa.aspx"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4111704",
+      "territory_name": "Jaboti",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://www.jaboti.pr.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4113700",
+      "territory_name": "Londrina",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://www.londrina.pr.gov.br/busca-jornal",
+        "https://www2.londrina.pr.gov.br/jornaloficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4115200",
+      "territory_name": "Maringá",
+      "state_code": "PR",
+      "publication_urls": [
+        "http://venus.maringa.pr.gov.br/arquivos/orgao_oficial/seleciona_ano_oom.php"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4120507",
+      "territory_name": "Primeiro de Maio",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://www.primeirodemaio.pr.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4125605",
+      "territory_name": "São Mateus do Sul",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://www.saomateusdosul.pr.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4126702",
+      "territory_name": "Tamboara",
+      "state_code": "PR",
+      "publication_urls": [
+        "https://doem.org.br/pr/tamboara/diarios"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4205407",
+      "territory_name": "Florianópolis",
+      "state_code": "SC",
+      "publication_urls": [
+        "http://www.pmf.sc.gov.br/governo/index.php?pagina=govdiariooficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4209102",
+      "territory_name": "Joinville",
+      "state_code": "SC",
+      "publication_urls": [
+        "https://www.joinville.sc.gov.br/jornal",
+        "https://www.diariomunicipal.sc.gov.br/site/?q=cod_entidade%3A141"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4303004",
+      "territory_name": "Cachoeira do Sul",
+      "state_code": "RS",
+      "publication_urls": [
+        "https://www.cachoeiradosul.rs.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4303509",
+      "territory_name": "Camaquã",
+      "state_code": "RS",
+      "publication_urls": [
+        "https://www.camaqua.rs.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4305108",
+      "territory_name": "Caxias do Sul",
+      "state_code": "RS",
+      "publication_urls": [
+        "https://doe.caxias.rs.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4305124",
+      "territory_name": "Cerrito",
+      "state_code": "RS",
+      "publication_urls": [
+        "https://www.cerrito.rs.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4314902",
+      "territory_name": "Porto Alegre",
+      "state_code": "RS",
+      "publication_urls": [
+        "http://www2.portoalegre.rs.gov.br/dopa/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "4322707",
+      "territory_name": "Vera Cruz",
+      "state_code": "RS",
+      "publication_urls": [
+        "https://www.veracruz.rs.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5002100",
+      "territory_name": "Bela Vista",
+      "state_code": "MS",
+      "publication_urls": [
+        "https://www.belavista.ms.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5002704",
+      "territory_name": "Campo Grande",
+      "state_code": "MS",
+      "publication_urls": [
+        "https://diogrande.campogrande.ms.gov.br/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5003256",
+      "territory_name": "Costa Rica",
+      "state_code": "MS",
+      "publication_urls": [
+        "https://www.costarica.ms.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5004403",
+      "territory_name": "Inocência",
+      "state_code": "MS",
+      "publication_urls": [
+        "https://www.inocencia.ms.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5005400",
+      "territory_name": "Maracaju",
+      "state_code": "MS",
+      "publication_urls": [
+        "https://www.maracaju.ms.gov.br/portal/diario-oficial"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5103403",
+      "territory_name": "Cuiabá",
+      "state_code": "MT",
+      "publication_urls": [
+        "http://www.diariomunicipal.com.br/amm-mt/pesquisar",
+        "https://diariomunicipal.org/mt/amm/publicacoes/?e=432",
+        "http://gazetamunicipal.cuiaba.mt.gov.br/api/api/editions/published/2022/10"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5107602",
+      "territory_name": "Rondonópolis",
+      "state_code": "MT",
+      "publication_urls": [
+        "http://www.rondonopolis.mt.gov.br/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5201405",
+      "territory_name": "Aparecida de Goiânia",
+      "state_code": "GO",
+      "publication_urls": [
+        "https://doe.aparecida.go.gov.br",
+        "https://webio.aparecida.go.gov.br/api/diof/lista"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5208707",
+      "territory_name": "Goiânia",
+      "state_code": "GO",
+      "publication_urls": [
+        "https://www.goiania.go.gov.br/casa-civil/diario-oficial/"
+      ],
+      "level": "3"
+    },
+    {
+      "territory_id": "5300108",
+      "territory_name": "Brasília",
+      "state_code": "DF",
+      "publication_urls": [
+        "http://www.dodf.df.gov.br/"
+      ],
+      "level": "3"
+    }
+  ]
+}
