@@ -1,0 +1,307 @@
+{
+    "themes": [
+      {
+        "name": "Políticas Ambientais",
+        "index": "ambiental",
+        "stopwords": ["lei", "n°", "no."],
+        "entities": {
+          "categories": [
+            {"name": "entidadeambiental", "description": "Instituições ou termos relevantes para a temática ambiental."}
+          ],
+          "cases": [
+            {"category": "entidadeambiental", "title": "FUNAI", "values": ["fundação nacional do índio", "funai"]},
+            {"category": "entidadeambiental", "title": "ICMBio", "values": ["instituto chico mendes de conservação da biodiversidade", "icmbio"]},
+            {"category": "entidadeambiental", "title": "IBAMA", "values": ["instituto brasileiro do meio ambiente e dos recursos naturais renováveis", "ibama"]},
+            {"category": "entidadeambiental", "title": "CONAMA", "values": ["conselho nacional do meio ambiente", "conama"]},
+            {"category": "entidadeambiental", "title": "SISNAMA", "values": ["sistema nacional do meio ambiente", "sisnama"]},
+            {"category": "entidadeambiental", "title": "SINIMA", "values": ["sistema nacional de informação sobre meio ambiente", "sinima"]},
+            {"category": "entidadeambiental", "title": "CEMADEN", "values": ["centro nacional de monitoramento e alertas de desastres naturais", "cemaden"]},
+            {"category": "entidadeambiental", "title": "INPE", "values": ["instituto nacional de pesquisas espaciais", "inpe"]},
+            {"category": "entidadeambiental", "title": "CNUC", "values": ["cadastro nacional de unidades de conservação", "cnuc"]},
+            {"category": "entidadeambiental", "title": "SNUC", "values": ["sistema nacional de unidades de conservação", "snuc"]},
+            {"category": "entidadeambiental", "title": "Parque Ecológico", "values": ["parque ecológico"]},
+            {"category": "entidadeambiental", "title": "Unidade de Conservação", "values": ["unidade de conservação"]},
+            {"category": "entidadeambiental", "title": "Reserva Particular do Patrimônio Natural", "values": ["reserva particular do patrimônio natural", "rppn"]},
+            {"category": "entidadeambiental", "title": "Área de Preservação Permanente", "values": ["área de preservação permanente"]},
+            {"category": "entidadeambiental", "title": "Área de Proteção Ambiental", "values": ["área de proteção ambiental"]},
+            {"category": "entidadeambiental", "title": "Secretaria de Meio Ambiente", "values": ["secretaria de meio ambiente"]},
+            {"category": "entidadeambiental", "title": "Fundo Nacional sobre Mudança do Clima", "values": ["fundo nacional sobre mudança do clima", "fnmc"]},
+            {"category": "entidadeambiental", "title": "Fundo Socioambiental", "values": ["fundo socioambiental"]},
+            {"category": "entidadeambiental", "title": "Programa de Regularização Ambiental", "values": ["programa de regularização ambiental"]}
+          ]
+        },
+        "queries": [
+          {
+            "title": "Agricultura e Pecuária",
+            "term_sets": [
+              [["lei federal", "lei"], ["7.802", "7802"], ["11 de julho de 1989", "1989", "89"]],
+              [["decreto federal", "decreto"], ["4.074", "4074"], ["4 de janeiro de 2002", "2002", "02"]],
+              [["lei de agrotóxicos"]],
+              [["lei federal", "lei"], ["8.171", "8171"], ["17 de janeiro de 1991", "1991", "91"]],
+              [["lei agrícola"]]
+            ]
+          },
+          {
+            "title": "Aquicultura e Pesca",
+            "term_sets": [
+              [["decreto-lei federal", "decreto-lei"], ["794", "794"], ["19 de outubro de 1938", "1938", "38"]],
+              [["código de pesca"]],
+              [["decreto-lei federal", "decreto-lei"], ["221", "221"], ["28 de fevereiro de 1967", "1967", "67"]],
+              [["proteção e estímulos à pesca"]],
+              [["lei federal", "lei"], ["11.959", "11959"], ["29 de junho de 2009", "2009", "09"]],
+              [["política nacional de desenvolvimento sustentável da aquicultura e pesca", "pndsap"]]
+            ]
+          },
+          {
+            "title": "Biodiversidade",
+            "term_sets": [
+              [["decreto federal", "decreto"], ["4.703", "4703"], ["21 de maio de 2003", "2003", "03"]],
+              [["programa nacional de diversidade biológica", "comissão nacional da biodiversidade ", "pronabio"]],
+              [["decreto federal", "decreto"], ["4.339", "4339"], ["22 de agosto de 2002", "2002", "02"]],
+              [["política nacional de biodiversidade"]],
+              [["lei federal", "lei"], ["5.197", "5197"], ["3 de janeiro de 1967", "1967", "67"]],
+              [["proteção à fauna"]],
+              [["lei federal", "lei"], ["12.651", "12651"], ["25 de maio de 2012", "2012", "12"]],
+              [["lei federal", "lei"], ["12.727", "12727"], ["17 de outubro de 2012", "2012", "12"]],
+              [["proteção vegetação nativa", "código florestal brasileiro"]]
+            ]
+          },
+          {
+            "title": "Crimes Ambientais",
+            "term_sets": [
+              [["lei federal", "lei"], ["9.605", "9605"], ["12 de fevereiro de 1998", "1998", "98"]],
+              [["crimes ambientais", "lei de crimes ambientais"]]
+            ]
+          },
+          {
+            "title": "Crise Climática",
+            "term_sets": [
+              [["lei federal", "lei"], ["12.187", "12187"], ["29 de dezembro de 2009", "2009", "09"]],
+              [["política nacional sobre mudança do clima", "pnmc"]],
+              [["plano nacional de adaptação à mudança do clima"]],
+              [["plano", "política"], ["clima", "climática"]]
+            ]
+          },
+          {
+            "title": "Educação Ambiental",
+            "term_sets": [
+              [["lei federal", "lei"], ["9.795", "9795"], ["27 de abril de 1999", "1999", "99"]],
+              [["política nacional de educação ambiental"]]
+            ]
+          },
+          {
+            "title": "Energia Nuclear",
+            "term_sets": [
+              [["decreto federal", "decreto"], ["9.600", "9600"], ["5 de dezembro de 2018", "2018", "18"]],
+              [["política nuclear brasileira"]]
+            ]
+          },
+          {
+            "title": "Mineração",
+            "term_sets": [
+              [["decreto-lei federal", "decreto-lei"], ["1.985", "1985"], ["29 de março de 1940", "1940", "40"]],
+              [["código de minas"]],
+              [["lei federal", "lei"], ["9.055", "9055"], ["01 de junho de 1995", "1995", "95"]]
+            ]
+          },
+          {
+            "title": "Políticas de Águas",
+            "term_sets": [
+              [["decreto federal", "decreto"], ["24.643", "24643"], ["10 de julho de 1934", "1934", "34"]],
+              [["código de águas"]],
+              [["lei federal", "lei"], ["9.433", "9433"], ["8 de janeiro de 1997", "1997", "97"]],
+              [["lei das águas", "política nacional de recursos hídricos", "pnrh"]]
+            ]
+          },
+          {
+            "title": "Política Nacional do Meio Ambiente",
+            "term_sets": [
+              [["lei federal", "lei"], ["6.938", "6938"], ["31 de agosto de 1981", "1981", "81"]],
+              [["lei federal", "lei"], ["7.804", "7804"], ["18 de julho de 1989", "1989", "89"]],
+              [["lei federal", "lei"], ["10.165", "10165"], ["27 de dezembro de 2000", "2000", "00"]],
+              [["política nacional do meio ambiente", "pnma"]]
+            ]
+          },
+          {
+            "title": "Saneamento",
+            "term_sets": [
+              [["lei federal", "lei"], ["5.318", "5318"], ["26 de setembro de 1967", "1967", "67"]],
+              [["política nacional de saneamento", "conselho nacional de saneamento"]],
+              [["lei federal", "lei"], ["12.305", "12305"], ["02 de agosto de 2010", "2010", "10"]],
+              [["política nacional de resíduos sólidos", "pnrs"]],
+              [["lei federal", "lei"], ["11.445", "11445"], ["05 de janeiro de 2007", "2007", "07"]],
+              [["lei federal", "lei"], ["14.026", "14026"], ["15 de julho de 2020", "2020", "20"]],
+              [["marco legal do saneamento", "novo marco legal do saneamento"]]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tecnologias na Educação",
+        "index": "educacao",
+        "stopwords": [],
+        "entities": {
+          "categories": [
+            {"name": "entidadeeducacao", "description": "Instituições ou termos relevantes para a temática educacional."}
+          ],
+          "cases": [
+            {"category": "entidadeeducacao", "title": "Ministério da Educação", "values": ["ministério da educação", "mec"]},
+            {"category": "entidadeeducacao", "title": "Secretaria Estadual de Educação", "values": ["secretaria estadual de educação"]},
+            {"category": "entidadeeducacao", "title": "Secretaria Municipal de Educação", "values": ["secretaria de educação", "secretaria municipal de educação"]},
+            {"category": "entidadeeducacao", "title": "Conselho de Educação", "values": ["conselho de educação", "conselho municipal de educação"]},
+            {"category": "entidadeeducacao", "title": "Unidade de Ensino", "values": ["unidade de ensino"]},
+            {"category": "entidadeeducacao", "title": "FNDE", "values": ["fundo nacional de desenvolvimento da educação", "fnde"]},
+            {"category": "entidadeeducacao", "title": "FUNDEB", "values": ["fundo de manutenção e desenvolvimento da educação básica e de valorização dos profissionais da educação", "fundeb"]},
+            {"category": "entidadeeducacao", "title": "PDDE", "values": ["programa dinheiro direto na escola", "pdde"]},
+            {"category": "entidadeeducacao", "title": "PIEC", "values": ["programa de inovação educação conectada", "piec"]}
+          ]
+        },
+        "queries": [
+          {
+            "title": "Acessibilidade",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["recursos de acessibilidade", "leitor de tela", "jaws", "virtual vision", "nvda", "voiceover", "dosvox", "orca", "dolphin", "talkback", "vischeck", "tradutor automático de libras", "avatar", "prodeaf", "handtalk", "vlibras", "rybena", "legenda descritiva", "legenda oculta", "janela de libras", "audiodescrição", "livro acessível", "livro audiovisual", "livro digital"]]
+            ]
+          },
+          {
+            "title": "Ciência de Dados e Inteligência Artificial",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["inteligência artificial", "chatgpt", "chat gpt", "ciência de dados", "reconhecimento facial", "análise preditiva", "modelo preditivo", "bard", "algoritmo"]]
+            ]
+          },
+          {
+            "title": "Conectividade",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["switch", "access point", "ponto de acesso", "firewall", "roteador", "internet", "conectividade", "dados móveis", "3G", "4G", "5G", "via rádio", "banda larga", "fibra ótica", "satélite", "ADSL", "bluetooth", "wi-fi", "wifi", "wireless", "internet patrocinada", "cobrança reversa", "tráfego patrocinado"]],
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["nextel", "telecom", "tplink", "tp-link", "dlink", "d-link", "intelbras", "google", "mercusys"]]
+            ]
+          },
+          {
+            "title": "Formação e Aprendizagem",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["ava", "aplicativo", "plataforma", "ambiente virtual", "virtual", "ensino remoto", "ensino à distância", "ead", "sistema educacional"]],
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["zoom", "youtube", "kahoot", "moodle", "khan academy", "superensino", "super ensino", "superprof", "super prof", "Eduedu", "eduplay", "liber", "brainy", "stoodi", "lemann", "cogna", "ânima", "passei direto", "árvore de livros", "udemy", "veduca", "coursera", "alura", "aprimora", "google", "meet", "microsoft", "teams", "g suite", "gsuite", "edtech", "ed tech", "ed-tech", "dragon learn", "foreducation", "mangahigh", "classroom", "amazon", "jovens genios", "sistema educacional"]]
+            ]
+          },
+          {
+            "title": "Gestão",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["office", "google", "microsoft", "portabilis", "i-educar", "eduqo", "amazon", "i-diario", "idiario", "diário de classe online", "diário de classe on-line", "clique escola", "diário de classe virtual", "diário de classe digital", "sistema de gestão", "sistema integrado de gestão", "sistema educacional", "sistema de informática", "sigeduc", "conviva"]]
+            ]
+          },
+          {
+            "title": "Infraestrutura e Dispositivos",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["tablet", "mobile", "smartphone", "notebook", "celular", "computador", "chromebook", "laptop", "ipad", "iphone", "mesa digitalizadora", "projetor", "mouse", "desktop", "teclado", "cpu", "impressora 3d"]],
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["positivo", "lenovo", "samsung", "LG", "HP", "acer", "apple", "wacom", "asus", "dell", "google", "aws", "multilaser"]]
+            ]
+          },
+          {
+            "title": "Robótica",
+            "term_sets": [
+              [["contrato", "licitação", "pregão", "aquisição", "prestação de serviços", "decreto", "lei", "regimento", "plano", "portaria", "resolução", "acordo de cooperação", "termo de convênio", "despacho", "termo de colaboração", "termo de fomento", "chamamento público", "parceria", "deliberação", "edital", "extrato", "comodato", "instrução normativa", "aditivo"], ["ensino", "educação", "educacional", "escola"], ["PCB", "protoboard", "microcontrolador", "arduino", "raspberry pi", "robótica", "pepper", "robô humanóide"]]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Políticas de Saúde",
+        "index": "saúde",
+        "stopwords": [],
+        "entities": {
+          "categories": [
+            {"name": "entidadesaude", "description": "Instituições ou termos relevantes para a temática saúde."}
+          ],
+          "cases": [
+            {"category": "entidadesaude", "title": "Ministério da Saúde", "values": ["ministério da saúde"]},
+            {"category": "entidadesaude", "title": "ANVISA", "values": ["agência nacional de vigilância sanitária", "anvisa"]},
+            {"category": "entidadesaude", "title": "FIOCRUZ", "values": ["fundação oswaldo cruz", "fiocruz"]},
+            {"category": "entidadesaude", "title": "ANS", "values": ["agência nacional de saúde suplementar", "ans"]},
+            {"category": "entidadesaude", "title": "Sistema único de Saúde", "values": ["sistema único de saúde", "sus"]},
+            {"category": "entidadesaude", "title": "Hemobrás", "values": ["hemobrás"]},
+            {"category": "entidadesaude", "title": "Hospital Nossa Senhora Conceição", "values": ["grupo hospitalar conceição", "ghc", "hospital nossa senhora conceição S/A"]},
+            {"category": "entidadesaude", "title": "Sistema de informações sobre nascidos vivos", "values": ["sistema de informações sobre nascidos vivos", "sinasc"]},
+            {"category": "entidadesaude", "title": "Sistema de informação de Agravos de Notificação", "values": ["sistema de informação de agravos de notificação", "sinan"]},
+            {"category": "entidadesaude", "title": "SISPRENATAL", "values": ["sistema de acompanhamento da gestante", "sistema de acompanhamento do programa de humanização no pré-natal e nascimento", "sisprenatal"]},
+            {"category": "entidadesaude", "title": "Conselho Nacional de Saúde", "values": ["conselho nacional de saúde", "cns"]},
+            {"category": "entidadesaude", "title": "Conselho Nacional de Secretários de Saúde", "values": ["conselho nacional de secretários de saúde", "conass"]},
+            {"category": "entidadesaude", "title": "Conselho Nacional de Secretarias Municipais de Saúde", "values": ["conselho nacional de secretarias municipais de saúde", "conasems"]},
+            {"category": "entidadesaude", "title": "Conselho Federal de Medicina", "values": ["conselho federal de medicina", "cfm"]},
+            {"category": "entidadesaude", "title": "FEDERAÇÃO BRASILEIRA DAS ASSOCIAÇÕES DE GINECOLOGIA E OBSTETRÍCIA", "values": ["federação brasileira das associações de ginecologia e obstetrícia", "febrasgo"]},
+            {"category": "entidadesaude", "title": "Associação Brasileira de Enfermagem", "values": ["associação brasileira de enfermagem", "aben"]},
+            {"category": "entidadesaude", "title": "ASSOCIAÇÃO BRASILEIRA DE OBSTETRIZES E ENFERMEIROS OBSTETRAS", "values": ["associação brasileira de obstetrizes e enfermeiros obstetras", "abenfo"]},
+            {"category": "entidadesaude", "title": "Associação Brasileira de Pós-Graduação em Saúde Coletiva", "values": ["associação brasileira de pós-graduação em saúde coletiva", "abrasco"]},
+            {"category": "entidadesaude", "title": "Rede pela Humanização do Parto e Nascimento", "values": ["rede pela humanização do parto e nascimento", "rehuna"]},
+            {"category": "entidadesaude", "title": "Rede de Atenção materna e infantil", "values": ["rede de atenção materna e infantil", "rami"]},
+            {"category": "entidadesaude", "title": "Sistema de Informações Hospitalares", "values": ["sistema de informações hospitalares", "sih"]}
+          ]
+        },
+        "queries": [
+          {
+            "title": "Mortalidade e morbidade",
+            "term_sets": [
+              [["portaria"], ["1.119", "1119"], ["5 de junho de 2008", "2008", "08"], ["óbitos maternos", "vigilância"]],
+              [["lei"], ["11.313", "11313"], ["21 de dezembro de 1992", "1992", "92"], ["comitê de mortalidade materna"]],
+              [["portaria"], ["72"], ["11 de janeiro de 2010", "2010", "10"], ["óbitos infantil e fetal"]],
+              [["plano de ações estratégicas para o enfrentamento de doenças crônicas não transmissíveis", "dcnt"]]
+            ]
+          },
+          {
+            "title": "Atenção à saúde materno-infantil",
+            "term_sets": [
+              [["portaria"], ["569"], ["01 de junho de 2000", "2000", "00"], ["pré-natal", "parto", "puerpério", "assistência neonatal"]],
+              [["portaria"], ["2.228", "2228"], ["01 de julho de 2022", "2022", "22"], ["maternidade"]],
+              [["política nacional de humanização", "pnh"]],
+              [["portaria"], ["930"], ["10 de maio de 2012", "2012", "12"], ["atenção integral e humanizada"]],
+              [["portaria"], ["1.683", "1683"], ["12 de julho de 2007", "2007", "07"], ["canguru"]],
+              [["lei"], ["14.966", "14966"], ["21 de julho de 2009", "2009", "09"], ["programa mãe canguru"]],
+              [["lei"], ["11.108", "11108"], ["07 de abril de 2005", "2005", "05"]],
+              [["política nacional de atenção integral à saúde da mulher"]]
+            ]
+          },
+          {
+            "title": "Capacidade hospitalar",
+            "term_sets": [
+              [["lei"], ["9.656", "9656"], ["3 de junho de 1998", "1998", "98"], ["beneficiário", "assistência", "convênio", "plano de saúde"]],
+              [["portaria"], ["715"], ["01 de junho de 2000", "2000", "00"], ["financiamento", "centrais estaduais de regulação obstétrica e neonatal", "centrais municipais de Regulação Obstétrica e Neonatal"]],
+              [["portaria"],["3.390", "3390", "3.410", "3410"], ["30 de dezembro de 2013", "2013", "13"], ["política nacional de atenção hospitalar"]],
+              [["portaria"], ["1.300", "1300"], ["23 de novembro de 2012", "2012", "12"]],
+              [["portaria"], ["930"], ["10 de maio de 2012", "2012", "12"], ["leitos", "utis", "uti"]],
+              [["ambiência"]]
+            ]
+          },
+          {
+            "title": "Gestão hospitalar",
+            "term_sets": [
+              [["lei", "medida provisória", "mp"], ["14.063", "14063"], ["23 de setembro de 2020","2020", "20"]],
+              [["decreto-lei"], ["101"], ["08 de maio de 1980", "1980", "80"]],
+              [["decreto-lei"], ["129"], ["02 de abril de 1977", "1977", "77"]],
+              [["decreto regulamentar", "decreto"], ["30"], ["20 de maio de 1977", "1977", "77"]],
+              [["portaria"], ["4.279", "4279"], ["30 de dezembro de 2010", "2010", "10"], ["atenção à saúde"]],
+              [["lei"], ["8142", "8.142"], ["28 de dezembro de 1990", "1990", "90"]],
+              [["custeio", "bipartite", "contrato", "licitação", "financiamento", "fundo"], ["utis neonatal", "centros de parto normal", "casas de gestantes", "equipamentos"]]
+            ]
+          },
+          {
+            "title": "Vacinação",
+            "term_sets": [
+              [["programa nacional de imunizações", "pni"]],
+              [["programa nacional de hepatites virais", "hepatite infantil"]],
+              [["plano Nacional de operacionalização da vacina Contra a covid-19"]],
+              [["lei"], ["8.069", "8069"], ["13 de julho de 1990", "1990", "90"]],
+              [["campanha de vacinação", "vacinas"]]
+            ]
+          },
+          {
+            "title": "Rede Cegonha",
+            "term_sets": [
+              [["portaria"], ["1.459", "1459"], ["24 de junho de 2011", "2011", "11"]],
+              [["portaria"], ["399"], ["22 de fevereiro de 2006", "2006", "06"]],
+              [["portaria"], ["699"], ["30 de março de 2006", "2006", "06"]],
+              [["casa de gestantes, bebês e puérperas", "centro de parto normal"]]
+            ]
+          }
+        ]
+      }
+    ]
+  }
