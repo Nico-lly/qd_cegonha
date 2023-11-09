@@ -13,14 +13,8 @@ import re
 PATH = (".")
 
 map_meso = gpd.read_file('./mapas/mesoregiao-ipeageo/mesoregiao.shp')
-map_mun = gpd.read_file('./mapas/BR_Municipios_2022/BR_Municipios_2022.shp')  #from: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html
+map_mun = gpd.read_file('../BR_Municipios_2022/BR_Municipios_2022.shp')  #from: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html
 print(map_mun.head())
-
-#sns.set(style="white", palette="deep", color_codes=True)
-#map_meso.plot()
-#map_mun.plot()
-#plt.figure(figsize=(10, 6))
-#plt.show()
 
 ### Enriquecendo o shapefile
 # 1 - Cidades que estão no QD
