@@ -16,3 +16,4 @@ import pre_processamento
 
 ### Naive Bayes
 
+#### Acurácia, precisão, recall e F1-score.
