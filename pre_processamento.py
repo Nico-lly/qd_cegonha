@@ -7,7 +7,6 @@ diarios = pd.read_csv("./raw_data/saude_dataset1.csv", header = 1, encoding='utf
 print(diarios.head(10))
 
 print(list(diarios.columns))
-<<<<<<< HEAD
 diarios_dataset = diarios[['excerpt', 'excerpt_subthemes']]
 print(diarios_dataset.head(5))
 
@@ -34,7 +33,3 @@ print(diarios_dataset.head(5))
 
 ## outra ref: Repositorio Fabio Colado
 
-=======
-diarios_dataset = diarios["excerpt", "excerpt_subthemes"]
-#print(diarios_dataset.head(5))
->>>>>>> parent of f8cd127 (reading files)
