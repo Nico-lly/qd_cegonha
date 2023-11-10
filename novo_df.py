@@ -5,6 +5,7 @@ import pathlib
 import json
 #https://github.com/okfn-brasil/querido-diario-api
 
+###https://www.dataside.com.br/dataside-community/linguagem-de-programacao/metodos-para-gerar-o-requirements-txt-do-seu-projeto-em-python
 # Definindo diretório
 PATH = (".")
 
