@@ -1,17 +1,14 @@
 import pandas as pd
 import pathlib
-
-PATH = (".")
-
-diarios = pd.read_csv("./raw_data/saude_dataset1.csv", header = 1, encoding='utf-8')
-print(diarios.head(10))
-
-print(list(diarios.columns))
-diarios_dataset = diarios[['excerpt', 'excerpt_subthemes']]
-print(diarios_dataset.head(5))
+import nltk
+from nltk.corpus import stopwords
 
 ### Tecnicas de Pré-processamento
 # 1. Stopwords
+def remove_stopwords(df, stop_pt):
+    df['excerpt'] = df['excerpt'].apply(lambda x: ' '.join([word for word in x.split() if word not in stop_pt]))
+    
+    return df['excerpt']
 
 # 2. Normalização
 #remover pontuacao
