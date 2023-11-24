@@ -80,6 +80,9 @@ pop_selected = map_enrich[map_enrich['prop_pop'] > 0.45]
 # Ajuste o tamanho da bolha de acordo com a proporção da população
 sizes = pop_selected['prop_pop'] * 1000  # Ajuste o fator multiplicador conforme necessário
 
+#### CHECAR SE todos os municípios tem uma atribuição. - Mapa com furos..
+
+
 # Criar figura e eixos
 fig, ax = plt.subplots(figsize=(10, 6))
 

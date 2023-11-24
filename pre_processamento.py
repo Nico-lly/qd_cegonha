@@ -5,10 +5,11 @@ from nltk.corpus import stopwords
 
 ### Tecnicas de Pré-processamento
 # 1. Stopwords
-def remove_stopwords(df, stop_pt):
+def remove_stopwords(df):
+    stop_pt = set(nltk.corpus.stopwords.words('portuguese'))
     df['excerpt'] = df['excerpt'].apply(lambda x: ' '.join([word for word in x.split() if word not in stop_pt]))
     
-    return df['excerpt']
+    return df['excerpt'], list(df['excerpt'])
 
 # 2. Normalização
 #remover pontuacao
